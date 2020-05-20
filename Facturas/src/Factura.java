@@ -2,7 +2,7 @@ public class Factura implements FacturasI {
 		public int num;
 		public float base;
 		public float tipoIva;
-		public Estados estado;
+		protected Estados estado;
 
 	public static void main(String[] args) {
 
@@ -10,8 +10,12 @@ public class Factura implements FacturasI {
 
 	public void cambiarEstado(Estados estado){
 }
+
 	public float getTotal(){
+
 }
 	public float getCantidadIva(){
+
 }
+
 }
