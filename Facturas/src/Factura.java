@@ -9,13 +9,12 @@ public class Factura implements FacturasI {
 	}
 
 	public void cambiarEstado(Estados estado){
-}
+	}
 
 	public float getTotal(){
-
-}
+		return base;
+	}
 	public float getCantidadIva(){
-
-}
-
+		return tipoIva;
+	}
 }
