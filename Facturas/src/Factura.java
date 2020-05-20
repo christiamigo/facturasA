@@ -1,8 +1,8 @@
 public class Factura implements FacturasI {
-		public int num;
-		public float base;
-		public float tipoIva;
-		protected Estados estado;
+	private int num;
+	private float base;
+	private float tipoIva;
+	protected Estados estado;
 
 	public static void main(String[] args) {
 
